@@ -1,0 +1,382 @@
+* {
+	margin: 0;
+}
+.header-area{
+	width: 100%;
+	height: 600px;
+	background-image: url(img/banner.jpg);
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 200px;
+}
+
+.logo img {
+  height: 100px;
+  width: 150px;
+}
+
+.list {
+  position: absolute;
+  right: 321px;
+  top: 10px;
+  display: inline-block;
+}
+.list li {
+  display: inline-block;
+  margin: 6px;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.list li a {
+  text-decoration: none;
+}
+.test{
+	color: white;
+}
+
+.test h2 {
+  font-size: 40px;
+  position: absolute;
+  top: 150px;
+  left: 154px;
+}
+
+.test h4 {
+  position: absolute;
+  top: 260px;
+  left: 156px;
+  font-size: 20px;
+}
+
+.test img {
+  position: absolute;
+  top: 241px;
+  left: 900px;
+}
+.test a {
+  background-color: orange;
+  padding: 6px;
+  border-radius: 10px;
+  /*! display: inline-block; */
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+  position: absolute;
+  top: 413px;
+  left: 200px;
+}
+
+.content-one {
+  background-color: #b2bec3;
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+
+.fast h4 {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 200px;
+  font-size: 20px;
+}
+.fast h2 {
+  margin-top: 130px;
+  position: absolute;
+  margin-left: 185px;
+  font-size: 30px;
+}
+.fast:before{
+  content:'';
+  background-color: red;
+  width: 60px;
+  height: 7px;
+  position: absolute;
+  
+  margin-top: 80px;
+  margin-left: 212px;
+}
+
+
+.Valp {
+  background-color: white;
+  width: 319px;
+  height: 301px;
+  position: absolute;
+  top: 227px;
+  left: 200px;
+  text-align: center;
+}
+
+.mobile {
+  background-color: white;
+  width: 316px;
+  height: 301px;
+  position: absolute;
+  top: 227px;
+  left: 606px;
+  text-align: center;
+}
+
+.time {
+  background-color: white;
+  width: 316px;
+  height: 301px;
+  position: absolute;
+  top: 228px;
+  left: 998px;
+  text-align: center;
+}
+
+.content-two {
+  width: 100%;
+  height: 486px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.kewboard img {
+  position: absolute;
+  top: 20px;
+}
+
+.word {
+}
+.word h3 {
+  position: absolute;
+  top: 83px;
+  left: 650px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.word h2 {
+  position: absolute;
+  top: 125px;
+  left: 651px;
+  font-size: 37px;
+}
+
+.word p {
+  position: absolute;
+  top: 193px;
+  left: 650px;
+  font-size: 20px;
+}
+
+.word a {
+  background-color: orange;
+  padding: 8px;
+  border-radius: 13px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  position: absolute;
+  top: 400px;
+  left: 663px;
+}
+.content-three{
+  background-image: url(img/banner.jpg);
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+
+.lorem h4 {
+  position: absolute;
+  color: #f1c40f;
+  top: 82px;
+  left: 77px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.lorem:before{
+   content:'';
+  background-color: #f1c40f;
+  width: 60px;
+  height: 7px;
+  position: absolute;
+  top: 65px;
+  left: 79px;
+}
+
+.lorem h2 {
+  position: absolute;
+  color: white;
+  top: 106px;
+  left: 74px;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.t-one img {
+  position: absolute;
+  top: 190px;
+  left: 274px;
+}
+.t-two img {
+  position: absolute;
+  top: 189px;
+  left: 645px;
+}
+.t-three img {
+  position: absolute;
+  top: 196px;
+  right: 226px;
+}
+
+.lorem h3 {
+  position: absolute;
+  background-color: #1abc9c;
+  top: 308px;
+  left: 133px;
+  width: 37px;
+  text-align: center;
+  font-size: 30px;
+  height: 33px;
+}
+
+.lorem h5 {
+  position: absolute;
+  background-color: #1abc9c;
+  top: 308px;
+  right: 133px;
+  width: 37px;
+  text-align: center;
+  font-size: 30px;
+  height: 33px;
+}
+
+.lorem a {
+  background-color: orange;
+  color: white;
+  padding: 14px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-size: 15px;
+  position: absolute;
+  top: 588px;
+  left: 161px;
+}
+
+.content-four {
+  background-color: #ecf0f1;
+  width: 100%;
+  height: 800px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.down h5 {
+  position: absolute;
+  top: 150px;
+  left: 247px;
+  text-transform: uppercase;
+}
+.down h2 {
+  position: absolute;
+  top: 171px;
+  left: 242px;
+  font-size: 34px;
+  font-style: italic;
+}
+.down h3 {
+  position: absolute;
+  top: 218px;
+  left: 243px;
+  font-size: 15px;
+}
+.down p {
+  position: absolute;
+  top: 276px;
+  left: 241px;
+}
+.down:before{
+  content:'';
+  background-color: #f1c40f;
+  width: 60px;
+  height: 7px;
+  position: absolute;
+  top: 115px;
+  left: 250px;
+}
+.picture1 {
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  top: 100px;
+  left: 700px;
+  text-align: center;
+  width: 200px;
+}
+
+.picture2 {
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  top: 99px;
+  left: 945px;
+  text-align: center;
+  width: 200px;
+}
+.picture3 {
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  top: 364px;
+  left: 701px;
+  width: 200px;
+  text-align: center;
+}
+
+.picture4 {
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  top: 364px;
+  left: 947px;
+  width: 200px;
+  text-align: center;
+}
+
+.down a {
+  background-color: orange;
+  color: white;
+  padding: 14px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-size: 15px;
+  position: absolute;
+  top: 600px;
+  left: 200px;
+}
+.content-five{
+  background-image: url(img/banner.jpg);
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.footer h2 {
+  position: absolute;
+  color: white;
+  text-align: center;
+  top: 91px;
+  left: 500px;
+  font-size: 62px;
+}
+.footer a {
+  background-color: orange;
+  color: white;
+  padding: 14px;
+  border-radius: 9px;
+  text-decoration: none;
+  font-size: 18px;
+  position: absolute;
+  top: 212px;
+  left: 660px;
+}
